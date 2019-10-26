@@ -1,0 +1,13 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+.text-field
+{
+    -fx-prompt-text-fill: #ffffff;
+    -fx-prompt-text: #ffffff;
+    -fx-text-fill: #ffffff; 
+    -fx-highlight-fill: #ffffff; 
+}
+}

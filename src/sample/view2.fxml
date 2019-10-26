@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="385.0" prefWidth="654.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane layoutX="401.0" layoutY="23.0" prefHeight="86.0" prefWidth="241.0" style="-fx-background-color: #401A2A; -fx-background-radius: 50;">
+         <children>
+            <Text fill="#fffafa" layoutX="77.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Obesity" textAlignment="CENTER" wrappingWidth="78.875">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <VBox prefHeight="385.0" prefWidth="102.0" style="-fx-background-color: linear-gradient(to right top, #ea1d91, #bb2072, #8e1f55, #631b3b, #3a1523, #3d1726, #3f1a29, #421c2c, #702a4f, #a03879, #cf4aab, #fb5fe3);;">
+         <children>
+            <JFXButton contentDisplay="TOP" onAction="#back" prefHeight="61.0" prefWidth="133.0" text="BMI" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="56.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/icon0.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton contentDisplay="TOP" prefHeight="51.0" prefWidth="96.0" text="Obesity" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/obesity.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton contentDisplay="TOP" onAction="#toOver" prefHeight="61.0" prefWidth="134.0" text="Overweight" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/over.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton contentDisplay="TOP" onAction="#toPerfect" prefHeight="61.0" prefWidth="134.0" text="Perfect" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/5263638-48.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton contentDisplay="TOP" onAction="#tounder" prefHeight="61.0" prefWidth="134.0" text="Underweight" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/4051033-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </VBox>
+      <AnchorPane layoutX="105.0" layoutY="65.0" prefHeight="316.0" prefWidth="546.0" style="-fx-background-color: linear-gradient(to right top, #ea1d91, #bb2072, #8e1f55, #631b3b, #3a1523, #3d1726, #3f1a29, #421c2c, #702a4f, #a03879, #cf4aab, #fb5fe3); -fx-background-radius: 9;">
+         <children>
+            <Text fill="#fffafa" layoutX="24.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The best way to treat obesity is to eat a healthy reduced-calorie diet and exercise regularly. To do this, you should: eat a balanced calorie-controlled diet as recommended by a GP or weight loss management health professional (such as a dietitian)." textAlignment="CENTER" wrappingWidth="250.875">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="167.0" fitWidth="229.0" layoutX="307.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/obesityy.jpg" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <ImageView fitHeight="32.0" fitWidth="34.0" layoutX="132.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/icon0.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="172.0" layoutY="27.0" text="Body Mass Index" textFill="#fcf6f6">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Pane layoutX="390.0" layoutY="97.0" prefHeight="256.0" prefWidth="3.0" style="-fx-background-color: #cc51e4; -fx-background-radius: 50;" />
+   </children>
+</AnchorPane>
